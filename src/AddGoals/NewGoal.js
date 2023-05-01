@@ -35,7 +35,7 @@ function NewGoal(props) {
             className={
               !empty
                 ? " bg-red-500/25 border-red-700 w-full border-2 "
-                : " w-full border-2"
+                : " w-full border-4 px-2"
             }
             onChange={onChangeHandler}
           />
